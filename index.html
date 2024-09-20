@@ -17,25 +17,34 @@
             <div class="logo-menu"></div>
 
             <ul class="botoes">
-                <li><a class="btDropdown" href="#">Produtos</a></li>
+                <li><a id="btDropdown" href="#">Produtos</a></li>
                 <li><a href="#">Soluções</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
 
             <main class="corpo-dropdown">
-                <section class="dropdown-botoes">
-                    <div class="botoes-catalogo">
-                        <button type="button" id="bt-processadores">Processadores</button>
-                        <button type="button" id="bt-aceleradores">Aceleradores</button>
-                        <button type="button" id="bt-placas-de-video">Placas de Vídeo</button>
-                        <button type="button" id="bt-adaptativos">SOMs, FGPAs e SoCs adaptativos</button>
-                        <button type="button" id="bt-software">Software, ferramentas e apps</button>
-                    </div>
-                </section>
+                <div class="secoes-drop">
 
-                <section id="processadores">
+                    <section class="dropdown-botoes">
+                        <div class="botoes-catalogo">
+                            <button type="button" id="bt-processadores">Processadores</button>
+                            <button type="button" id="bt-aceleradores">Aceleradores</button>
+                            <button type="button" id="bt-placas-de-video">Placas de Vídeo</button>
+                            <button type="button" id="bt-adaptativos">SOMs, FGPAs e SoCs adaptativos</button>
+                            <button type="button" id="bt-software">Software, ferramentas e apps</button>
+                        </div>
+                    </section>
 
-                </section>
+                    <section id="processadores"></section>
+
+                    <section id="aceleradores"></section>
+
+                    <section id="placas"></section>
+
+                    <section id="adaptativos"></section>
+
+                    <section id="software"></section>
+                </div>
             </main>
 
             <div class="login">
@@ -64,7 +73,7 @@
                 e instalação de atualizações de driver para placas de vídeo das séries AMD Radeon™ e chipsets Ryzen™</p>
             <p style="font-size: 16px; margin-bottom: 60px; line-height: 1.2rem;">Para usos em sistemas operando com
                 Windows® 11 / Windows® 10 de 64 bits, versão 1809 ou posterior. Baixe e execute diretamente no sistema
-                que você deseja atualizar. <a href="#">Saiba mais</a></p>
+                que você deseja atualizar. <a href="#">Saiba mais.</a></p>
 
             <a class="btDriver" href="#">Baixe os Drivers do Windows. ⇓</a>
 
@@ -173,7 +182,8 @@
             </main>
 
             <div class="eu">
-                <p><a href="https://github.com/ramonespier" target="_blank">Site inspirado em "AMD Ryzen", por Ramon Coelho.</a></p>
+                <p><a href="https://github.com/ramonespier" target="_blank">Site inspirado em "AMD Ryzen", por Ramon
+                        Coelho.</a></p>
             </div>
 
         </div>
@@ -181,6 +191,7 @@
     </footer>
 
     <script src="./js/dropdown.js"></script>
+    <script src="./js/abas-drop.js"></script>
 
 </body>
 
